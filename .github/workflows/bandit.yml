@@ -27,7 +27,7 @@ jobs:
           persist-credentials: false
 
       - name: Super-linter
-        uses: shundor/python-bandit-action@v1
+        uses: PyCQA/bandit-action@v1
         with: 
             path: "."
             level: high
