@@ -1,4 +1,4 @@
-name: Bandit Secuirity Scan
+name: Bandit Security Scan
 
 on:
   push:
@@ -27,7 +27,7 @@ jobs:
           persist-credentials: false
 
       - name: Super-linter
-        uses: shundor/bandit-action@v1
+        uses: shundor/python-bandit-action@v1
         with: 
             path: "."
             level: high
